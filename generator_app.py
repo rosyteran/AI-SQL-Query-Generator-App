@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as generativeai
 
-GOOGLE_API_KEY = "AIzaSyBQVdiPRhrZgNh8y6krN1CrafWHeE3RkgY"
+GOOGLE_API_KEY = "AIzaSyAm5HtxB7D8AxkmsGGEHtn0QYjy5gZyPR8"
 generativeai.configure(api_key=GOOGLE_API_KEY)
 model = generativeai.GenerativeModel("gemini-pro")
 
@@ -22,7 +22,7 @@ def main():
             <div style="text-align: center;">
                  <h1>🤖AI SQL Query Generator App🧠</h1>
                  <h3>With this app, you can interact with a natural language interface to generate SQL queries, making it easier for both beginners and experienced SQL users to work with databases.</h3>
-                 <h4>Made by <a href="https://www.linkedin.com/in/adad74/">Adad Al Shabab</a></h4>
+                 <h4>Made by <a href="https://www.linkedin.com/in/adad74/">Rosany Teran</a></h4>
                  <p>For more information, visit <a href="https://www.streamlit.io/">Streamlit</a></p>
             </div>
 
